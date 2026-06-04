@@ -1,0 +1,19 @@
+/* src/App.css */
+body {
+  background-color: #c46ae0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor-principal {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(145, 28, 223);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  color: #ffffff;
+  text-align: center;
+}
