@@ -1,0 +1,149 @@
+body {
+  background-color: #431451;
+  margin: 0;
+  padding: 0;
+}
+
+.counter-game {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Título del contador */
+.counter-title {
+  text-align: center;
+  color: #b6a1a1;
+}
+
+/* Contenedor del input */
+.input-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  color: #b6a1a1;
+}
+
+/* Label del input */
+.input-label {
+  display: flex;
+  align-items: center;
+}
+
+/* Input numérico */
+.number-input {
+  padding: 8px;
+  margin-left: 8px;
+  width: 120px;
+  border: 1px solid #ccc;
+  borderRadius: 4px;
+}
+
+/* Contenedor de botones */
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Botón incrementar (verde) */
+.btn-increment {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  borderRadius: 5px;
+  cursor: pointer;
+}
+
+.btn-increment:hover {
+  background-color: #45a049;
+}
+
+/* Botón decrementar (rojo) */
+.btn-decrement {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  borderRadius: 5px;
+  cursor: pointer;
+}
+
+.btn-decrement:hover {
+  background-color: #da1a1a;
+}
+
+/* Botón reset (naranja) */
+.btn-reset {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FF9800;
+  color: white;
+  border: none;
+  borderRadius: 5px;
+  cursor: pointer;
+}
+
+.btn-reset:hover {
+  background-color: #e68a00;
+}
+
+/* Botón deshacer (azul) */
+.btn-undo {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  borderRadius: 5px;
+  cursor: pointer;
+}
+
+.btn-undo:hover {
+  background-color: #1e88e5;
+}
+
+/* Botón deshacer desactivado */
+.btn-undo.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Título del historial */
+.history-title {
+  color: #ffffff;
+}
+
+/* Lista del historial */
+.history-list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  borderRadius: 5px;
+  padding: 10px;
+}
+
+/* Item del historial */
+.history-item {
+  padding: 5px;
+  margin-bottom: 5px;
+  backgroundColor: #f9f9f9;
+  color: #4CAF50;
+  borderRadius: 3px;
+}
+
+/* Mensaje cuando no hay historial */
+.history-empty {
+  color: #dfcf75;
+  text-align: center;
+}
