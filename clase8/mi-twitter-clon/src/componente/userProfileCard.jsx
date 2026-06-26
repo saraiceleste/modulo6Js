@@ -5,7 +5,7 @@ const UserProfileCard = ({ user, logout }) => {
   if (!user) {
     return (
       <div style={{
-        background: "#1e1e1e",
+        background: "#1b3898",
         color: "#fff",
         padding: "20px",
         borderRadius: "15px",
@@ -14,7 +14,7 @@ const UserProfileCard = ({ user, logout }) => {
         marginBottom: "20px"
       }}>
         <h3 style={{ margin: "0 0 10px 0" }}>¿Eres nuevo en Twitter?</h3>
-        <p style={{ color: "#aaa", fontSize: "14px", marginBottom: "15px" }}>
+        <p style={{ color: "#ebe6e6", fontSize: "14px", marginBottom: "15px" }}>
           Regístrate ahora o inicia sesión para obtener tu propio feed personalizado.
         </p>
         <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
