@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import TweetList from "../componente/tweetList";
 import TweetForm from "../componente/tweetForm";
-import UserProfileCard from "../componente/userProfileCard"; // 👈 Tu componente personalizado
+import UserProfileCard from "../componente/userProfileCard"; // 
 
 const Home = ({ user, logout }) => {
   // Inicialización diferida: Carga los tweets de localStorage directamente al montar el componente
